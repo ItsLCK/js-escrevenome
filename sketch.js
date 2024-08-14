@@ -6,7 +6,6 @@ function setup() {
   function draw() {
       stroke("blue");
       fill("red");
-    background(220);
 
       if(mouseIsPressed){
           rect(mouseX, mouseY, 20, 35);
